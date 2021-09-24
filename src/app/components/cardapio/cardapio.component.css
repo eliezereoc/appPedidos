@@ -1,0 +1,35 @@
+.flex1 {
+    flex: 1 1 auto;
+  }
+  
+  h2 {
+    padding: 16px;
+    color: rgb(255, 64, 129);
+    margin: 0;
+  }
+  
+  mat-action-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 6px;  
+  }
+  
+  mat-toolbar-row a {
+    font-size: 1.2em;  
+  }
+  
+  mat-toolbar-row a:hover {   
+    color: rgb(255, 64, 129);
+  }
+  
+  mat-action-list button {
+    font-size: 1.5em;
+  }
+  
+  

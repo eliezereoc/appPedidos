@@ -1,0 +1,49 @@
+.flex1 {
+    flex: 1 1 auto;
+  }
+  
+  .lista-pedido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 6px;
+    font-size: 1.2em;
+  } 
+  
+  .lista-pedido__total-lista {
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+  
+  #bt {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: #0047AB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .bt__bt-row {
+      display: table-cell;
+      width: auto;    
+  }
+  .bt__bt-row button {
+      margin-left: 10px;
+      height: 40px;
+  }
+  #bt__bt-row__concluir {
+    float: right; 
+    margin-right: 10px;
+  }
+    
+  
+   
